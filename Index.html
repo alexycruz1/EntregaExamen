@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="CSS/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="CSS/StyleSheet.css"  media="screen,projection"/>
+    <link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Beta Amazon</title>
+  </head>
+    
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">Beta Amazon</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href = "Index.html">Home</a></li>
+          <li><a onclick = "">Search</a></li>
+        </ul>
+      </div>
+    </nav>
+        
+    <div class="container">
+
+      <div class="row">
+        <div class="input-field col s2">
+          <input id="nombre" type="email" class="validate">
+          <label for="" data-error="" data-success="">Nombre</label>
+        </div>
+
+        <div class="input-field col s2">
+          <input id="marca" type="email" class="validate">
+          <label for="" data-error="" data-success="">Marca</label>
+        </div>
+
+        <div class="input-field col s2">
+          <input id="color" type="email" class="validate">
+          <label for="" data-error="" data-success="">Color</label>
+        </div>
+
+        <div class="input-field col s2">
+          <input id="talla" type="email" class="validate">
+          <label for="" data-error="" data-success="">Talla</label>
+        </div>
+
+        <div class="input-field col s2">
+          <input id="precio" type="email" class="validate">
+          <label for="" data-error="" data-success="">Precio por par</label>
+        </div>
+
+        <div class="input-field col s2">
+          <input id="tipo" type="email" class="validate">
+          <label for="" data-error="" data-success="">Tipo</label>
+        </div>
+      </div>
+
+        <div class = "row">
+          <div class = "col s3">
+            <form action="#">
+              <p>
+                <input name="group1" type="radio" id="estampado" />
+                <label for="estampado">Tiene estampado</label>
+              </p>
+              <p>
+                <input name="group1" type="radio" id="estampado2" />
+                <label for="estampado2">No tiene estampado</label>
+              </p>
+            </form>
+          </div>
+
+          <div class = "col s3">
+            <form action="#">
+              <p>
+                <input name="group2" type="radio" id="hombre" />
+                <label for="hombre">Hombre</label>
+              </p>
+              <p>
+                <input name="group2" type="radio" id="mujer" />
+                <label for="mujer">Mujer</label>
+              </p>
+              <p>
+                <input name="group2" type="radio" id="unisex" />
+                <label for="unisex">Unisex</label>
+              </p>
+            </form>
+          </div>
+          
+
+        </div>
+
+
+      <div class = "row">
+        <div class = "col s4">
+        <button class="btn waves-effect waves-light" type="submit" name="action" onclick = "Submit()">Agregar
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+
+      <div class = "col s4">
+        <button class="btn waves-effect waves-light" type="submit" name="action">Modificar
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+
+      <div class = "col s4">
+        <button class="btn waves-effect waves-light" type="submit" name="action">Eliminar
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </div>
+
+    <div class = "Footer">
+    </div>
+
+  </div>
+        
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Help us</h5>
+            <p class="grey-text text-lighten-4">Spread the word, tell your friends about the ultimate beta Amazon.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <a class = "FooterButtons" onclick = "window.open('https://twitter.com/?partner=opera15-latam', '_blank');"><i class="material-icons left" style = "color:white">thumb_up</i><p class = "CustomFont">Twitter</p></a>
+              <a class = "FooterButtons" onclick = "https://plus.google.com/collections/featured?hl=en', '_blank');"><i class="material-icons left" style = "color:white">exposure_plus_1</i><p class = "CustomFont">Google+</p></a>
+              <a class = "FooterButtons" onclick = "window.open('https://www.facebook.com', '_blank');"><i class="material-icons left" style = "color:white">group_add</i><p class = "CustomFont">Facebook</p></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2017 Official Beta Amazon Copyright
+          <a class = "MoreAboutHover" class="grey-text text-lighten-4 right" onclick = "window.open('https://www.w3schools.com/bootstrap/bootstrap_carousel.asp', '_blank');">More about Beta Amazon</a>
+        </div>
+      </div>
+    </footer>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="JS/materialize.js"></script>
+      <script type="text/javascript" src="JS/Carousel.js"></script>
+  </body>
+</html>
